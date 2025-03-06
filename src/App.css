@@ -58,13 +58,23 @@ header .logo {
 }
 
 header .text-gradiant {
-    background-image: linear-gradient(to right, var(--turquoise) 37%, var(--yellow) 38%);
+    background-image: linear-gradient(to right, var(--turquoise) 19%, var(--yellow) 19%,var(--yellow) 70%, var(--turquoise) 100%);
     background-clip: text;
+    background-size: 200% 100%;
     -webkit-background-clip: text;
+    background-position: left center;
     -webkit-text-fill-color: transparent;
     font-size: 8vw;
     font-family: 'Roboto Condensed Variable';
     font-weight: 500;
+    animation: moverGradiante 3.5s linear;
+    animation-delay: .5s;
+    
+    
+}
+@keyframes moverGradiante {
+    0% {background-position: 0% 50%;}
+    100% { background-position: 200% 50%; }
     
 }
 
@@ -78,7 +88,10 @@ header .bttnDownload{
     border: solid 1px var(--turquoise);
     font-weight: 300;
     transition: ease-in-out .5s;
+    
 }
+
+
 
 header .bttnDownload:hover{
     color: var(--yellow);

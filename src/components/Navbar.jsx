@@ -5,11 +5,11 @@ export default function Navbar() {
 
     useEffect(() => {
         const handlescroll = () => {
-            if (window.scrollY > 100){
-                setScrolled(true)
-            }
-            
-        };
+
+            setScrolled(window.scrollY > 100)
+        }
+
+
         window.addEventListener('scroll', handlescroll);
         return () => window.removeEventListener('scroll', handlescroll);
     }, []);
