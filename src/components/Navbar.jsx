@@ -5,13 +5,16 @@ export default function Navbar() {
 
     useEffect(() => {
         const handlescroll = () => {
-            setScrolled(window.scrollY > 100);
+            if (window.scrollY > 100){
+                setScrolled(true)
+            }
+            
         };
         window.addEventListener('scroll', handlescroll);
         return () => window.removeEventListener('scroll', handlescroll);
     }, []);
     return (
-        <nav className={`navbar navbar-expand-sm fixed-top navbar-light bg-transparent ${scrolled ? 'bg-dark' : ''}`}>
+        <nav className={`navbar navbar-expand-sm fixed-top navbar-light ${scrolled ? 'nav-abajo' : ''}`}>
             <div className="container-fluid">
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
                     aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">

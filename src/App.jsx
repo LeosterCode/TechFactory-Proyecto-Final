@@ -12,6 +12,7 @@ function App() {
     <>
     <Navbar/>
     <Header/>
+    <section className='vh-100'></section>
     </>
   )
 }
