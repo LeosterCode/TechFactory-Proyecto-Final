@@ -1,0 +1,52 @@
+
+/*======================
+Paleta de Colores
+=======================*/
+:root {
+    --yellow: #eed622;
+    --turquoise: #07a2a4;
+    --green:#317a6d;
+    --dark:#1e1e1e;
+    --gray:#a6a6a6; 
+}
+
+/*======================
+Estilos de Navbar
+=======================*/
+.navbar-nav a{
+    color: var(--gray);
+    font-family: 'Roboto Condensed Variable';
+    font-weight: 500;
+
+}
+.navbar-nav a:hover{
+    color: var(--yellow);
+}
+
+/*======================
+Estilos de Header
+=======================*/
+header {
+    background: rgb(100, 98, 98);
+    background: radial-gradient(circle, rgba(100, 98, 98, 1) 0%, rgba(75, 74, 74, 1) 0%, rgba(34, 34, 34, 1) 46%, rgba(0, 0, 0, 1) 100%);
+    text-transform: uppercase;
+}
+
+header img{
+    width: 30vh;
+    /* opacity: 0;
+    transform: translateY(50px); */
+}
+
+header .text-gradiant{
+    background-color:linear-gradient(to right, var(--turquoise) 37%, var(--yellow) 30%); ;
+    background-image:linear-gradient(to right, var(--turquoise) 37%, var(--yellow) 30%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 8vw;
+    font-family: 'Roboto Condensed Variable';
+    font-weight: 500;
+    /* opacity: 0;
+    transform: translateY(50px); */
+}
