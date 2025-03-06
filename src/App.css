@@ -99,3 +99,13 @@ header .bttnDownload:hover{
     font-weight: 600;
     box-shadow: 0px 0px 8px var(--yellow);
 }
+
+/*======================
+Estilos de Header
+=======================*/
+footer{
+    background-image: url(assets/bg-footer.svg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
