@@ -1,5 +1,5 @@
 import React,{useEffect, useRef} from 'react'
-import icono from "../assets/iconoTransparentTF.svg"
+import icono from "../assets/IconoTransparentTF.svg"
 
 
 export default function Header() {
