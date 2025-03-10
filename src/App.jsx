@@ -5,6 +5,8 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Photos from './components/Photos';
+
 // import SobreUs from './components/SobreUS';
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
     </Routes> */}
     <Header/>
     <section className='vh-100'></section>
+    <section id='photos'><Photos/> </section>
     <Footer/>
     </>
   )
