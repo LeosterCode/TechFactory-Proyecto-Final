@@ -110,6 +110,15 @@ footer{
     height: 50vh;
 }
 
+
+/*======================
+Seccion Sobre Nosotros
+=======================*/
+
+#carouselExampleCaptions{
+    background: linear-gradient(135deg, #000000, #444444);
+}
+
 /*======================
 Estilos de Seccion de Photos
 =======================*/
