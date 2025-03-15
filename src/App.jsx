@@ -21,7 +21,6 @@ function App() {
           <>
             <Header />
             <section id='SobreUs'><SobreUs /></section>
-            <section className='vh-100'></section>
             <section id='photos'><Photos /></section>
             <Footer />
           </>

@@ -28,11 +28,9 @@ export default function Navbar() {
                            " href="/SobreUs">Sobre Nosotros</a>
                         <a className="nav-link mx-5
                            " href="#">Que es TechFactory</a>
-                        <Link to="/download">Descargar</Link>
+                        <Link className='nav-link mx-5' to="/download">Descargar</Link>
                         <a className="nav-link mx-5
                            " href="#">Instruccionnes de uso</a>
-                        <a className="nav-link mx-5
-                           " href="#">Dedicatorias</a>
                     </div>
                 </div>
             </div>

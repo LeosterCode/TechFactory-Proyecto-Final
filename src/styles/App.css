@@ -20,10 +20,12 @@ Estilos de Navbar
     background: var(--dark);
 }
 
-.navbar-nav a {
+.navbar-nav a,
+.navbar-nav .anchor {
     color: var(--gray);
     font-family: 'Roboto Condensed Variable';
     font-weight: 500;
+  
 }
 
 .navbar-nav a:hover {
@@ -104,8 +106,8 @@ header .bttnDownload:hover{
 Estilos de Header
 =======================*/
 footer{
-    background-image: url(assets/bg-footer.svg);
-    background-position: center;
+    background-image: url(../assets/bg-footer.svg);
+    background-position: top;
     background-size: cover;
     height: 50vh;
 }
