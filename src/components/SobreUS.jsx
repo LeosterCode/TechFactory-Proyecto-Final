@@ -3,6 +3,7 @@ import mxmexicoflag from "./../assets/mxmexicoflag.ico"
 
 const SobreUs = () => {
   return (
+    <section id="SobreUs">
     <div>
       <div id="carouselExampleCaptions" className="carousel slide">
       <div className="carousel-indicators">
@@ -52,6 +53,7 @@ const SobreUs = () => {
       </button>
       </div>
     </div>
+    </section>
 
   );
 };
