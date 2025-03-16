@@ -16,7 +16,7 @@ export default function Navbar() {
         return () => window.removeEventListener('scroll', handlescroll);
     }, []);
     return (
-        <nav className={`navbar navbar-expand-sm fixed-top navbar-light ${scrolled ? 'nav-abajo' : ''}`}>
+        <nav className={`navbar navbar-expand-md fixed-top navbar-light ${scrolled ? 'nav-abajo' : ''}`}>
             <div className="container-fluid">
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
                     aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +30,7 @@ export default function Navbar() {
                            " href="#">Que es TechFactory</a>
                         <a className='nav-link mx-5' to="/download">Descargar</a>
                         <a className="nav-link mx-5
-                           " href="#">Instruccionnes de uso</a>
+                           " href="#">Instrucciones de uso</a>
                     </div>
                 </div>
             </div>
