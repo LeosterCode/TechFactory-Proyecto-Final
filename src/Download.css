@@ -68,6 +68,25 @@
     0 0 20px rgba(92, 103, 255, 0.3);
 }
 
+/* Media Queries para dispositivos móviles */
+@media (max-width: 768px) {
+  .canvas {
+    flex-direction: column; /* Cambia a columna en pantallas más pequeñas */
+    align-items: center; /* Centra las tarjetas */
+  }
+
+  .container {
+    width: 90%; /* Ancho del 90% en pantallas pequeñas */
+    max-width: none; /* Sin ancho máximo */
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 95%; /* Ancho del 95% en pantallas muy pequeñas */
+  }
+}
+
 .subtitle {
   position: absolute;
   bottom: 40px;
