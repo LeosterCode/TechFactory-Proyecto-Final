@@ -1,4 +1,4 @@
-/* From Uiverse.io by 00Kubi */ 
+/* card */ 
 .container {
   position: relative;
   width: 190px; /* Ancho de la tarjeta */
@@ -665,3 +665,5 @@
   border-color: rgba(92, 103, 255, 0.8);
   box-shadow: 0 0 10px rgba(92, 103, 255, 0.5);
 }
+
+/* boton de descarga */
