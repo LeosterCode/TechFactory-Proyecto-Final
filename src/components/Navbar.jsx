@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react'
 
-import { Link } from "react-router-dom";
-
 export default function Navbar() {
     const [scrolled, setScrolled] = useState(false);
 
@@ -28,9 +26,8 @@ export default function Navbar() {
                            " href="#SobreUs">Sobre Nosotros</a>
                         <a className="nav-link mx-5
                            " href="#">Que es TechFactory</a>
-                        <a className='nav-link mx-5' href='download'>Descargar</a>
-                        <a className="nav-link mx-5
-                           " href="#">Instrucciones de uso</a>
+                        <a className='nav-link mx-5' href='#download'>Descargar</a>
+                        <a className="nav-link mx-5" href="#">Instrucciones de uso</a>
                     </div>
                 </div>
             </div>
