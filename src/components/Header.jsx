@@ -29,8 +29,8 @@ export default function Header() {
         <header className='header vh-100 d-flex flex-column justify-content-center align-items-center'>
             <div ref={headerRef} className='text-center'>
                 <img src={icono} alt="Icono de TechFatory" className='logo' />
-                <h1 className='text-gradiant'>TechFactory</h1>
-                <button className='mt-5 bttnDownload'>Download</button>
+                <h1 className='text-gradiant d-md-block d-none'>TechFactory</h1>
+                <button className='mt-5 bttnDownload d-md-inline d-none'>Download</button>
             </div>
         </header>
     )
