@@ -121,7 +121,7 @@ export default function Photos() {
                         </div>
                     </div>
                 </div>
-            </div><div className="video-container">
+            </div><div className="video-container p-0">
                     <video width="100%" height="auto" loop autoPlay muted>
                         <source src={video}/>
                     </video>
