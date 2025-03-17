@@ -135,7 +135,7 @@ export default function Photos() {
                         </div>
                     </div>
                 </div>
-            </div><div className="video-container">
+            </div><div className="video-container p-0">
                     <video width="100%" height="auto" loop autoPlay muted>
                         <source src="https://utc.edu.mx/wp-content/uploads/2024/10/portada2.mp4" />
                     </video>
