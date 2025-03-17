@@ -1,12 +1,12 @@
 import React from 'react'
-import photo1 from "./../assets/photo1.jpeg"
-import photo2 from "./../assets/photo2.jpeg"
-import photo3 from "./../assets/photo3.jpeg"
-import photo4 from "./../assets/photo4.jpeg"
-import photo5 from "./../assets/photo5.jpeg"
-import photo6 from "./../assets/photo6.jpeg"
-import photo7 from "./../assets/photo7.jpeg"
-
+import photo1 from "./../assets/photo1.png"
+import photo2 from "./../assets/photo2.png"
+import photo3 from "./../assets/photo3.png"
+import photo4 from "./../assets/photo4.png"
+import photo5 from "./../assets/photo5.png"
+import photo6 from "./../assets/photo6.png"
+import photo7 from "./../assets/photo7.png"
+import video from "./../assets/video.mp4"
 
 export default function Photos() {
     return (
@@ -20,11 +20,9 @@ export default function Photos() {
                                     <img src={photo1} />
                                 </div>
                                 <div className="content">
-                                    <p className="heading">Descripcion de imagen</p>
+                                    <p className="heading">App Interactiva</p>
                                     <p>
-                                        Aqui va un texto para describir la imagen,
-                                        que color le puedo poner?,
-                                        como que negro no se ve bien
+                                    Sumérgete en un entorno industrial donde tu misión es recoger todas las piezas necesarias para abrir la puerta y avanzar en la App.
                                     </p>
                                 </div>
                             </div>
@@ -38,11 +36,9 @@ export default function Photos() {
                                     <img src={photo2} />
                                 </div>
                                 <div className="content">
-                                    <p className="heading">Descripcion de imagen</p>
+                                    <p className="heading">Estilo Visual</p>
                                     <p>
-                                        Aqui va un texto para describir la imagen,
-                                        que color le puedo poner?,
-                                        como que negro no se ve bien
+                                    Gráficos de calidad y detalles bien logrados, ideales para los amantes del entorno industrial.
                                     </p>
                                 </div>
                             </div>
@@ -56,11 +52,9 @@ export default function Photos() {
                                     <img src={photo3} />
                                 </div>
                                 <div className="content">
-                                    <p className="heading">Descripcion de imagen</p>
+                                    <p className="heading">Ambiente Interactivo</p>
                                     <p>
-                                        Aqui va un texto para describir la imagen,
-                                        que color le puedo poner?,
-                                        como que negro no se ve bien
+                                    Experiencia un entorno virtual similar a un taller industrial, donde los usuarios pueden practicar sin riesgos.
                                     </p>
                                 </div>
                             </div>
@@ -73,11 +67,9 @@ export default function Photos() {
                                     <img src={photo4} />
                                 </div>
                                 <div className="content">
-                                    <p className="heading">Descripcion de imagen</p>
+                                    <p className="heading">Capacitación Visual</p>
                                     <p>
-                                        Aqui va un texto para describir la imagen,
-                                        que color le puedo poner?,
-                                        como que negro no se ve bien
+                                    Imágenes 3D realistas para facilitar la comprensión de las piezas y su funcionamiento
                                     </p>
                                 </div>
                             </div>
@@ -90,11 +82,9 @@ export default function Photos() {
                                     <img src={photo5} />
                                 </div>
                                 <div className="content">
-                                    <p className="heading">Descripcion de imagen</p>
+                                    <p className="heading">Llamado a la Acción</p>
                                     <p>
-                                        Aqui va un texto para describir la imagen,
-                                        que color le puedo poner?,
-                                        como que negro no se ve bien
+                                    ¡Descubre la revolución en la capacitación industrial! Prueba nuestra aplicación y lleva el conocimiento de tu equipo al siguiente nivel.
                                     </p>
                                 </div>
                             </div>
@@ -107,11 +97,9 @@ export default function Photos() {
                                     <img src={photo6} />
                                 </div>
                                 <div className="content">
-                                    <p className="heading">Descripcion de imagen</p>
+                                    <p className="heading">Interfaz Sencilla</p>
                                     <p>
-                                        Aqui va un texto para describir la imagen,
-                                        que color le puedo poner?,
-                                        como que negro no se ve bien
+                                    Mejora la capacitación de tus empleados en el manejo y conocimiento de piezas industriales con nuestra innovadora aplicación.
                                     </p>
                                 </div>
                             </div>
@@ -124,11 +112,9 @@ export default function Photos() {
                                     <img src={photo7} />
                                 </div>
                                 <div className="content">
-                                    <p className="heading">Descripcion de imagen</p>
+                                    <p className="heading">Ideal Para:</p>
                                     <p>
-                                        Aqui va un texto para describir la imagen,
-                                        que color le puedo poner?,
-                                        como que negro no se ve bien
+                                    Empresas manufactureras, talleres mecánicos, y organizaciones que busquen optimizar sus procesos de capacitación en el sector industrial.
                                     </p>
                                 </div>
                             </div>
@@ -137,7 +123,7 @@ export default function Photos() {
                 </div>
             </div><div className="video-container">
                     <video width="100%" height="auto" loop autoPlay muted>
-                        <source src="https://utc.edu.mx/wp-content/uploads/2024/10/portada2.mp4" />
+                        <source src={video}/>
                     </video>
                 </div></>
         </section>
