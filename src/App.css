@@ -108,22 +108,28 @@ Estilos de Footer
 footer {
     background: rgb(100, 98, 98);
     background: radial-gradient(circle, rgba(100, 98, 98, 1) 0%, rgba(75, 74, 74, 1) 0%, rgba(34, 34, 34, 1) 46%, rgba(0, 0, 0, 1) 100%);
-    height: 50vh;
 }
 
-footer .text-gradiant{
-    background-image: linear-gradient(to right, var(--turquoise) 8%, var(--yellow) 8%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 3vw;
+footer .techFactory {
+    font-size: clamp(2rem, 3vw, 8vw);
     font-family: 'Roboto Condensed Variable';
     font-weight: 500;
 }
 
-footer .logoUtc{
-    width: 35vh;
+footer .techFactory .spanTech{
+    color: var(--turquoise);
 }
+footer .techFactory .spanFactory{
+    color: var(--yellow);
+}
+
+
+
+footer .logoUtc{
+
+    width:15em
+}
+
 
 /*======================
 Seccion Sobre Nosotros
@@ -237,7 +243,7 @@ Estilos de Seccion de Photos
     justify-content: center;
     text-align: center;
     gap: 10px;
-    color: black;
+    color: white;
     padding: 20px;
     line-height: 1.5;
     border-radius: 5px;
