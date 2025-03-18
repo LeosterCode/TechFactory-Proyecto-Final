@@ -713,6 +713,10 @@
   border-radius: 5rem;
 }
 
+a {
+  text-decoration: none; /* Quita el subrayado */
+}
+
 strong {
   z-index: 2;
   font-family: "Avalors Personal Use";

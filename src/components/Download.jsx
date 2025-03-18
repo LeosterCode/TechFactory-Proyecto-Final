@@ -9,7 +9,7 @@ export default function Download() {
       title: (
         <>
           Primero presiona <br />
-          el botón de descarga<br />
+          el botón de descarga <br />
            que está <br /> abajo 
         </>
       )
@@ -18,21 +18,44 @@ export default function Download() {
       prompt: "SEGUNDO PASO",
       title: (
         <>
-          Ahora selecciona <br />
-          el archivo<br />
-          que deseas descargar 2
+          El link te <br />
+          Te va a <br />
+          enviar <br />
+          a un link <br />
+          de google <br />
+          drive
         </>
       )
     },
     {
       prompt: "TERCER PASO",
-      title: "Confirma la descarga en tu navegador 3"
+      title: (
+        <>
+          Da click <br />
+          en el archivo <br />
+          con el nombre <br />
+          "Proyecto equipo 3 <br />
+           mesa 4.exe"
+        </>
+      )
     },
     {
       prompt: "CUARTO PASO",
-      title: "¡Listo! Tu archivo se está descargando 4"
+      title: (
+        <>
+          Disfruta la<br />
+          experiencia <br />
+          que te <br />
+          ofrece la <br />
+          capacitación <br />
+          visual
+        </>
+      )
     }
   ];
+
+   // Enlace de Google Drive
+   const driveLink = "https://drive.google.com/drive/folders/1Fjh7NOCL_n0PrBVc3VmJEaw5KVb_9-5E?usp=sharing ";
 
   return (
     <section id="download">
@@ -74,16 +97,18 @@ export default function Download() {
         ))}
       </div><br/>
       <div id="button-container">
-        <button type="button" class="btn">
-          <strong>DESCARGAR</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button>
+        <a href={driveLink} target="_blank" rel="noopener noreferrer">
+          <button type="button" class="btn">
+            <strong>DESCARGAR</strong>
+            <div id="container-stars">
+              <div id="stars"></div>
+            </div>
+            <div id="glow">
+              <div class="circle"></div>
+              <div class="circle"></div>
+            </div>
+          </button>
+        </a>
       </div>
     </section>
   );
