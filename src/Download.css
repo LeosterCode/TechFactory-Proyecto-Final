@@ -36,7 +36,7 @@
 }
 
 #prompt {
-  bottom: 100px;
+  bottom: 50px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 20;
@@ -668,21 +668,21 @@
 }
 
 /* boton de descarga */
-/* Estilos para el contenedor del botón */
+
 #button-container {
-  display: flex; /* Usar flexbox para centrar el botón */
-  justify-content: center; /* Centrar horizontalmente */
-  align-items: center; /* Centrar verticalmente */
-  height: 35vh;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  height: 25vh;
 }
 
 .btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30rem;
+  width: 35rem;
   overflow: hidden;
-  height: 8rem;
+  height: 7rem;
   background-size: 300% 300%;
   cursor: pointer;
   backdrop-filter: blur(1rem);
@@ -720,7 +720,7 @@ strong {
   letter-spacing: 5px;
   color: #ffffff;
   text-shadow: 0 0 4px white;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 #glow {
@@ -801,6 +801,19 @@ strong {
   background-image: radial-gradient(#ffffff 1px, transparent 1%);
   background-size: 50px 50px;
   opacity: 0.5;
+}
+
+/* Media Query para pantallas pequeñas */
+@media (max-width: 600px) {
+  .btn {
+    width: 15rem; 
+    height: 4rem; 
+    font-size: 20px; 
+    margin: 10px;
+  }
+  strong{
+    font-size: 15px;
+  }
 }
 
 @keyframes animStar {
