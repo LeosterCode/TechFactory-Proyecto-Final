@@ -30,10 +30,8 @@ const categories = [
     borderColor: "#FFD700",
     members: [
       { name: "Luis Fernando Moreno Aguilar", email: "19040135@alumno.utc.edu.mx", image: "fernan.jpg", telefono: "+52 844-273-5482" },
-      { name: "Renata", email: "@example.com", image: "/assets/renata.jpg", github: "https://github.com/renata", telefono: "+52 844-390-9057" },
-      { name: "Leo", email: "@example.com", image: "/assets/leo.jpg", github: "https://github.com/leo" },
-      { name: "Betzy", email: "@example.com", image: "/assets/betzy.jpg", telefono: "+52 811-098-7654" },
-      { name: "Daniel", email: "@example.com", image: "/assets/daniel.jpg", github: "https://github.com/daniel" }
+      { name: "Juan Antonio De Jesús Gonzales Rangel", email: "gonzalesrangeljuanantonio1@gmail.com", image: "juan.jpg", telefono: "+52 844-148-3076" },
+      { name: "Sergio Luis Dávila Tovar", email: "sergiodavilatovar@gmail.com", image: "sergio.jpg", telefono: "+52 844-451-8308" },
     ]
   }
 ];
