@@ -61,7 +61,7 @@
   text-align: center;
   width: 100%;
   padding-top: 20px;
-  background: linear-gradient(45deg, #00ffaa, #00a2ff);
+  background: linear-gradient(45deg, #eed622, #07a2a4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(0 0 15px rgba(0, 255, 170, 0.3));
@@ -101,9 +101,9 @@
 }
 
 .highlight {
-  color: #00ffaa;
+  color: #317a6d;
   margin-left: 5px;
-  background: linear-gradient(90deg, #5c67ff, #ad51ff);
+  background: linear-gradient(90deg, #07a2a4, #eed622);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
@@ -150,7 +150,7 @@
   position: absolute;
   width: 3px;
   height: 3px;
-  background: #00ffaa;
+  background: #07a2a4;
   border-radius: 50%;
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -586,7 +586,7 @@
   position: absolute;
   width: 15px;
   height: 15px;
-  border: 2px solid rgba(92, 103, 255, 0.3);
+  border: 2px solid #eed622;
 }
 
 .corner-elements span:nth-child(1) {
@@ -663,8 +663,8 @@
 }
 
 #card:hover .corner-elements span {
-  border-color: rgba(92, 103, 255, 0.8);
-  box-shadow: 0 0 10px rgba(92, 103, 255, 0.5);
+  border-color: #07a2a4;
+  box-shadow: 0 0 10px #317a6d;
 }
 
 /* boton de descarga */
@@ -693,10 +693,10 @@
   background-image: linear-gradient(#212121, #212121),
     linear-gradient(
       137.48deg,
-      #ffdb3b 10%,
-      #fe53bb 45%,
-      #8f51ea 67%,
-      #0044ff 87%
+      #eed622 10%,
+      #317a6d 45%,
+      #a6a6a6 67%,
+      #07a2a4 87%
     );
   background-origin: border-box;
   background-clip: content-box, border-box;
@@ -742,11 +742,11 @@ strong {
 }
 
 .circle:nth-of-type(1) {
-  background: rgba(254, 83, 186, 0.636);
+  background: #07a2a4;
 }
 
 .circle:nth-of-type(2) {
-  background: rgba(142, 81, 234, 0.704);
+  background: #eed622 ;
 }
 
 .btn:hover #container-stars {
@@ -759,14 +759,14 @@ strong {
 }
 
 .btn:active {
-  border: double 4px #fe53bb;
+  border: double 4px #eed622;
   background-origin: border-box;
   background-clip: content-box, border-box;
   animation: none;
 }
 
 .btn:active .circle {
-  background: #fe53bb;
+  background: #eed622;
 }
 
 #stars {
