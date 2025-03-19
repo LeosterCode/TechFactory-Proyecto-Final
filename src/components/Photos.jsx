@@ -11,7 +11,7 @@ import video from "./../assets/video.mp4"
 export default function Photos() {
     return (
         <section id='photos'>
-            <h1>Imagenes y video de prueba</h1><><div className='container d-flex'>
+            <h1></h1><><div className='container d-flex'>
                 <div className="parent">
                     <div className="photos1">
                         <div className="photoscard-container">
@@ -54,8 +54,9 @@ export default function Photos() {
                                 <div className="content">
                                     <p className="heading">Ambiente Interactivo</p>
                                     <p>
-                                    Experiencia un entorno virtual similar a un taller industrial, donde los usuarios pueden practicar sin riesgos.
+                                    Experiencia un entorno virtual similar a un taller industrial. 
                                     </p>
+                                    <p>donde los usuarios pueden practicar sin riesgos.</p>
                                 </div>
                             </div>
                         </div>
@@ -121,7 +122,8 @@ export default function Photos() {
                         </div>
                     </div>
                 </div>
-            </div><div className="video-container p-0">
+            </div>
+            <div className="video-container p-0">
                     <video width="100%" height="auto" loop autoPlay muted>
                         <source src={video}/>
                     </video>
