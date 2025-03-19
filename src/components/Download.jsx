@@ -33,7 +33,7 @@ export default function Download() {
         <>
           Si estas navegando<br />
           en tu celular ejecuta <br />
-          el .APK, si no el .EXE <br />
+          el ANDROID, si no el PC <br />
         </>
       )
     },
