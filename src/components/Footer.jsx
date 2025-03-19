@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="col-md-4 col-12 d-flex d-md-inline justify-content-center text-light">
           <p className='fs-2 fw-medium d-md-block d-none me-4 m-0'>Enlaces UTC</p>
           <AnchorFooter text='Sitio Oficial' icono='bi bi-globe' enlace='https://utc.edu.mx/' />
-          <AnchorFooter text='FaceBookk' icono='bi bi-facebook' enlace='https://www.facebook.com/UniversidadTecnologicadeCoahuila' />
+          <AnchorFooter text='Facebook' icono='bi bi-facebook' enlace='https://www.facebook.com/UniversidadTecnologicadeCoahuila' />
           <AnchorFooter text='Instagram' icono='bi bi-instagram' enlace='https://www.instagram.com/utcoahuila/' />
         </div>
       </div>
