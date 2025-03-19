@@ -10,6 +10,7 @@ const categories = [
       { name: "Emilio Alonso Martinez Mata", email: "emilioalonso846@gmail.com", image: "emilio.jpg", telefono: "+52 844-276-4420" },
       { name: "Alexis Adair Hernández", email: "alexhdz319@gmail.com", image: "alex.jpg", telefono: "+52 844-120-4459" },
       { name: "Daniel Carbajal Esquivel", email: "Danielcarbajalesquivel14@gmail.com", image: "esquivel.jpg", telefono: "+52 844-602-8675" },
+      { name: "Juan Dniel Torres Cruz", email: "dt126887@gmail.com", image: "cruz.jpg", telefono: "+52 844-183-8774" }
     ]
   },
   {
