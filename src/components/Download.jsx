@@ -53,7 +53,7 @@ export default function Download() {
   ];
 
    // Enlace de Google Drive
-   const driveLink = "https://drive.google.com/drive/folders/1Fjh7NOCL_n0PrBVc3VmJEaw5KVb_9-5E?usp=sharing ";
+   const driveLink = "https://drive.google.com/drive/folders/1r3513_Z3kDHI-GIl-yFW9ZcgyC4wSJXs";
 
   return (
     <section id="download">

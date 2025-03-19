@@ -12,7 +12,7 @@ export default function Footer() {
             <span className='spanTech'>Tech</span>
             <span className='spanFactory'>Factory</span>
           </h4>
-          <p className='text-light'>Desarrollo como proyecto escolar de la <br /><strong>Universidad Tecnologica de Coahuila</strong>. </p>
+          <p className='text-light'>Desarrollo como proyecto escolar de la <br /><b>Universidad Tecnologica de Coahuila</b>. </p>
 
         </div>
         <div className="col-md-4 col-12 text-center align-self-center">

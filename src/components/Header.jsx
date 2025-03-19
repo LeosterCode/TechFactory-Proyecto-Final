@@ -30,7 +30,6 @@ export default function Header() {
             <div ref={headerRef} className='text-center'>
                 <img src={icono} alt="Icono de TechFatory" className='logo' />
                 <h1 className='text-gradiant d-md-block d-none'>TechFactory</h1>
-                <button className='mt-5 bttnDownload d-md-inline d-none'>Download</button>
             </div>
         </header>
     )
