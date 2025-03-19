@@ -212,18 +212,18 @@ Seccion Sobre Nosotros
     margin-bottom: 1rem;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid #4f46e5;
+    border: 4px solid #f7f7f7;
   }
   
   .team-card h3 {
     font-size: 1.3rem;
     font-weight: 600;
-    color: #1f2937;
+    color: #ffffff;
     margin-bottom: 0.5rem;
   }
   
   .team-card p {
-    color: #4b5563;
+    color: #ffffff;
     margin-bottom: 0.5rem;
   }
   
