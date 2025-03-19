@@ -31,11 +31,9 @@ export default function Download() {
       prompt: "TERCER PASO",
       title: (
         <>
-          Da click <br />
-          en el archivo <br />
-          con el nombre <br />
-          "Proyecto equipo 3 <br />
-           mesa 4.exe"
+          Si estas navegando<br />
+          en tu celular ejecuta <br />
+          el .APK, si no el .EXE <br />
         </>
       )
     },
@@ -61,7 +59,7 @@ export default function Download() {
     <section id="download">
       <div className="canvas">
         {cards.map((card, index) => (
-          <div className={`container`} key={index}>
+          <div className={`container-tarjeta`} key={index}>
             <div className="tracker tr-1"></div>
             <div className="tracker tr-2"></div>
             <div className="tracker tr-3"></div>

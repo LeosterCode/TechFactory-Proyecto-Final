@@ -1,12 +1,12 @@
 /* card */ 
-.container {
+.container-tarjeta {
   position: relative;
   width: 190px; /* Ancho de la tarjeta */
   height: 254px; /* Alto de la tarjeta */
   transition: 200ms;
 }
 
-.container:active {
+.container-tarjeta:active {
   width: 180px;
   height: 245px;
 }
@@ -719,11 +719,11 @@ a {
 
 strong {
   z-index: 2;
-  font-family: "Avalors Personal Use";
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 12px;
   letter-spacing: 5px;
   color: #ffffff;
-  text-shadow: 0 0 4px white;
+  text-shadow: 0 0 4px rgb(245, 244, 244);
   font-size: 25px;
 }
 
