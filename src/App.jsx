@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import Photos from './components/Photos';
 import SobreUs from './components/SobreUS';
 import Download from './components/Download';
+import TechFactory from './components/TechFactory';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
     <>
       <Navbar />
       <Header />
+      <TechFactory />
       <Photos />
       <Download />
       <SobreUs />

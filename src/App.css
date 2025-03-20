@@ -423,3 +423,22 @@ Ajustes para móviles
       line-height: 1.3;
   }
 }
+
+/*======================
+Styles QWue es TechFactory
+=======================*/
+.queEs .textHeader{
+  font-family:'Roboto Condensed Variable' ;
+  color: var(--turquoise);
+   
+}
+
+
+.queEs .img{
+width:clamp(2rem,15vw,20vw);
+}
+
+
+
+
+
