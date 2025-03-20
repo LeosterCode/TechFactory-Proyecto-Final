@@ -4,25 +4,24 @@ import '../App.css';
 
 const categories = [
   {
-    title: "Metal Mecánica",
-    borderColor: "#FFD700",
+    title: "Metal Mecánica en Noodes y Troqueles",
+    borderColor: "#eed622",
     members: [
       { name: "Emilio Alonso Martinez Mata", email: "emilioalonso846@gmail.com", image: "emilio.jpg", telefono: "+52 844-276-4420" },
       { name: "Alexis Adair Hernández", email: "alexhdz319@gmail.com", image: "alex.jpg", telefono: "+52 844-120-4459" },
-      { name: "Leo", email: "@gmail.com", image: ".jpg", telefono: "+52 844-120-4459" },
-      { name: "Betzy", email: "@gmail.com", image: "/assets/betzy.jpg", github: "https://github.com/betzy" },
-      { name: "Daniel", email: "@gmail.com", image: "/assets/daniel.jpg", github: "https://github.com/daniel" }
+      { name: "Daniel Carbajal Esquivel", email: "Danielcarbajalesquivel14@gmail.com", image: "esquivel.jpg", telefono: "+52 844-602-8675" },
+      { name: "Juan Dniel Torres Cruz", email: "dt126887@gmail.com", image: "cruz.jpg", telefono: "+52 844-183-8774" }
     ]
   },
   {
-    title: "Desarrollo de Software",
-    borderColor: "#40E0D0",
+    title: "Desarrollo de Software Multiplataforma",
+    borderColor: "#07a2a4",
     members: [
       { name: "Adan Miguel Pineda Botello", email: "pinedaadan819@gmail.com", image: "adan.jpg", github: "https://github.com/AdanCodi", telefono: "+52 844-224-2953" },
       { name: "María Renata Reyes Medina", email: "mrenatareyes369@gmail.com", image: "renata.jpg", github: "https://github.com/renatarm1", telefono: "+52 811-098-7654"},
-      { name: "Leonardo Sotero Nuñez Ortiz", email: "leosternunez@gmail.com", image: "leo.jpg", telefono: "+52 844-307-5960", github: "https://github.com/LeosterCode" },
-      { name: "Betzy", email: "@example.com", image: "/assets/betzy.jpg", github: "https://github.com/betzy" },
-      { name: "Daniel Eduardo Ortiz Ortega", email: "haisky98@gmail.com", image: "daniel.jpg", telefono: "+52 814-603-1330" }
+      { name: "Leonardo Sotero Nuñez Ortiz", email: "leosternunez@gmail.com", image: "leo.jpg", github: "https://github.com/LeosterCode", telefono: "+52 844-307-5960" },
+      { name: "Vetsy Abigail Navarro Rosas", email: "vetsynabarrorosas@gmail.com", image: "betzy.jpg", github: "https://github.com/aby12846", telefono: "+52 844-542-9040" },
+      { name: "Daniel Eduardo Ortiz Ortega", email: "haisky98@gmail.com", image: "daniel.jpg", github: "https://github.com/Haisky98",telefono: "+52 814-603-1330" }
     ]
   },
   {
